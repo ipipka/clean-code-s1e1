@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page-body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -62,6 +62,7 @@ body {
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  vertical-align: middle;
 }
 
 .task-item__btn:hover {
@@ -117,12 +118,9 @@ body {
   align-items: center;
 }
 
-.task-item > * {
-  vertical-align: middle;
-}
-
 .task-item__checkbox {
   margin: 0 10px;
+  vertical-align: middle;
 }
 
 .task-item__input,
@@ -130,6 +128,7 @@ body {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
+  vertical-align: middle;
 }
 
 .task-item__label {
